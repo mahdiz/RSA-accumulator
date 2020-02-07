@@ -17,7 +17,7 @@ def setup():
     return n, A0, dict()
 
 
-def add(A, S, x, n):
+def add(A, S, x, n):    // Mahdi: Add actually doesn't need the set
     if x in S.keys():
         return A
     else:
